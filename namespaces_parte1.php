@@ -3,7 +3,7 @@
 	namespace A;
 
 	class Cliente implements \B\CadastroInterface {
-		public $nome = 'Jorge';
+		public $nome = 'Welton';
 
 		public function __construct() {
 			echo '<pre>';
@@ -33,7 +33,7 @@
 	namespace B;
 
 	class Cliente implements \A\CadastroInterface {
-		public $nome = 'Jamilton';
+		public $nome = 'Luis';
 
 		public function __construct() {
 			echo '<pre>';
